@@ -13,7 +13,7 @@ import pandas as pd
 # Loading CO2 Data
 #---------------------------------------------------------------------------
 sheet_title = 'LOESS Fit'
-data = pd.read_excel('~/Desktop/Think Python/Code/ncomms14845-s3-2.xlsx', sheetname = sheet_title, header = 2)
+data = pd.read_excel('~/Downloads/ncomms14845-s3-2.xlsx', sheetname = sheet_title, header = 2)
 data.columns = ['Age [Ma]','Atmospheric CO2 [ppm]','LW95','LW68','UP68','UP95']
 
 
