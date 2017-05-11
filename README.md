@@ -14,4 +14,4 @@ This module initializes the constants and variables that will be used in the mod
 This module calcuates the Solar and CO2 forcings, which are then plotted against time in CO2_Sol_main.py. It is exactly the same as in the first model, except that CO2 forcings are calculated for real and generalized CO2 data.
 
 # How to run the model
-To run this model, first make sure all three of the above files are in your working directory. Then in ipython or whichever interface you use, type "run CO2_Sol_main.py". The output will be two plots that show Solar Forcing, CO2 Forcing, and their sum over the time period of interest, for the real and generalized CO2 data.
+To run this model, first make sure all four of the above files (3 python files and 1 excel file) are in your working directory. Then in ipython or whichever interface you use, type "run CO2_Sol_main.py". The output will be two plots that show Solar Forcing, CO2 Forcing, and their sum over the time period of interest, for the real and generalized CO2 data.
